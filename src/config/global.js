@@ -36,7 +36,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Programación de corta',
+            titulo: 'Programación de fabricación',
             hash: 't_2_1',
           },
           {
