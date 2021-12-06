@@ -127,7 +127,7 @@
                     
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 14px;")
+        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 10px; background-color: #BF3976;")
           .row.justify-content-evenly.align-items-center
             .col-3.col-sm-3.col-lg-2
               img(src="@/assets/curso/tema3/img8.svg" style="width: 73px;").m-auto

@@ -591,7 +591,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 14px;")
+        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 10px; background-color: #BF3976;")
           .row.justify-content-evenly.align-items-center
             .col-3.col-sm-3.col-lg-2
               img(src="@/assets/curso/tema2/img5.svg" style="width: 86px;").m-auto
@@ -608,20 +608,102 @@
     
 
 
-    p.mb-4 En los trazos sistematizados, la eficiencia del trazo es una medida de ahorro que da cuenta del desperdicio de la tela, la que se puede aumentar con una buena disposición de los patrones en el tizado. Para el cálculo de la eficiencia, se debe hacer un estimado del área total de los patrones y de cada una de las tallas de las prendas, para luego aplicar el siguiente calculo:
+    p.mb-5 En los trazos sistematizados, la eficiencia del trazo es una medida de ahorro que da cuenta del desperdicio de la tela, la que se puede aumentar con una buena disposición de los patrones en el tizado. Para el cálculo de la eficiencia, se debe hacer un estimado del área total de los patrones y de cada una de las tallas de las prendas, para luego aplicar el siguiente calculo:
 
 
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/tema4/img33.svg', alt='imagen ambiental', style='width: ;').m-auto
 
 
+    p.mb-4 En el siguiente ejemplo, se hace una suposición de las áreas de los patrones. Para las tallas que se detallan a continuación, son los siguientes:
+
+    .titulo-sexto.color-acento-contenido.mb-4
+      span #[strong Tabla 4 ] Ejemplo de eficiencia de trazo
+
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .tabla-a.color-secundario
+          table
+            thead
+              tr(style="background-color: #fff")
+                th Talla
+                th 14 1/2
+                th 15
+                th 15 1/2
+                th 16
+                th 16 1/2
+                th 17
+            tbody
+              tr
+                td.text-center &Aacute;rea (cm2)
+                td.text-center 13100
+                td.text-center 13600
+                td.text-center 14100
+                td.text-center 14600
+                td.text-center 15100
+                td.text-center 15600
 
 
+    p.mb-4 Suponiendo que se concluye con el tizado de las tallas 14 ½ y 17, se ha obtenido como largo del tizado 2.10.
 
+    p.mb-4
+      b La eficiencia real se calcula de la siguiente forma:
+
+    p Área de los patrones= 13,100 + 15,600 = 28,700 cm2
+    p Ancho de tela = 150 cm
+    p.mb-5 Largo del tizado =210 cm
+
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/tema4/img34.svg', alt='imagen ambiental', style='width: ;').m-auto
 
 
 
     
     #t_4_8.titulo-segundo.color-acento-contenido
       .h2 4.8 Ploteo de trazos
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema4/img35.svg', alt='imagen ambiental', style='width: ;').m-auto
+
+      .col-lg-5
+        p.mb-4 Los términos «ploteo» o «plotear» son derivados de la palabra en inglés <em>plot</em>, que significa trazar, y se utilizan para definir el proceso de dibujar líneas o trazos vectoriales a través de equipos de impresión a gran tamaño llamados <em>Plotter</em> (Plóter en español), cuya traducción es «Trazadores».
+        .p-4(style="background-color: #FFF5FA")
+          p.mb-0 Por lo tanto, ploteo se refiere a la impresión realizada a través de un plóter y plotear es la acción de imprimir, ya sea un plano, texto o dibujo a gran tamaño.
+
+
+    p.mb-4 Se requieren trazos impresos en papel para identificar cada pieza del patrón en una prenda. El trazo se debe imprimir luego de realizado, para identificar el contorno de las piezas que se van a cortar.
+
+    .cajon-b.color-acento-botones.p-3.mb-5
+      p.mb-4 Los plóteres se utilizan en dibujo técnico y otros usos del CAD, donde tienen la ventaja de poder trabajar con tamaños de papel muy grandes, a la vez que mantienen una alta resolución. Otro uso ha sido encontrado sustituyendo la pluma por un cortador. Las dimensiones de los plóteres no son uniformes. Para gráficos profesionales, se emplean plóteres de hasta 157 cm de ancho, mientras que para otros no tan complejos son de 91 a 121 cm2. (Wikipedia, 2021).
+      p.mb-0 Unos de los plóteres que también se encuentran en el mercado son los de corte de patrones (Ver siguiente figura), que ayudan al diseño de cama plana. Permiten que los materiales se coloquen en la superficie de corte y que el material se mantenga en su lugar con un sistema de vacío. A continuación, el material se aspira de forma rápida y sencilla en su lugar y la hoja con punta de acero y carburo se desliza sobre la superficie de las mesas, cortando y cerrando formas para una eliminación inmediata y limpia.
+
+
+    .titulo-sexto.color-acento-contenido.mb-4
+      span #[strong Figura 7 ] Plóter de corte de patrones
+
+    .row.justify-content-center.align-items-center
+      .col-10.col-lg-5.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema4/img36.png', alt='imagen ambiental', style='width: 427px;').m-auto
+      .col-lg-7 
+        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 5px; background-color: #BF3976;")
+          .row.justify-content-evenly.align-items-center
+            .col-3.col-sm-3.col-lg-2
+              img(src="@/assets/curso/tema3/img8.svg" style="width: 73px;").m-auto
+            .col 
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-0 Para ver las “Normas de Calidad” para trazar, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
+                .col-lg-2
+
+
 
 
     //tab-custom
@@ -641,21 +723,6 @@
         .col-lg-10.mt-5.mb-5
           .cajon.color-primario.p-5.mb-4
             p.mb-0 En este gtos y herrami
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </template>
