@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="342.31" height="163.235" viewBox="0 0 342.31 163.235">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_26680" data-name="Rectángulo 26680" width="342.31" height="115.408" fill="none" stroke="#0ac4bf" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="img6" transform="translate(-330.747 -3254.862)">
+    <rect id="Rectángulo_26686" data-name="Rectángulo 26686" width="261.215" height="163.235" rx="18" transform="translate(348.893 3254.862)" fill="#fff5fa"/>
+    <g id="Grupo_90345" data-name="Grupo 90345" transform="translate(330.747 3270.029)">
+      <line id="Línea_475" data-name="Línea 475" x2="248.553" transform="translate(48.274 35.022)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_476" data-name="Línea 476" x2="248.553" transform="translate(48.274 39.543)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_477" data-name="Línea 477" x2="248.553" transform="translate(48.274 43.799)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Línea_479" data-name="Línea 479" x2="278.476" transform="translate(38.3 30.076)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Grupo_90344" data-name="Grupo 90344">
+        <g id="Grupo_90343" data-name="Grupo 90343" clip-path="url(#clip-path)">
+          <path id="Trazado_154264" data-name="Trazado 154264" d="M28.2,24.712V58.225H19.953V65.14H328.617V55.831H33.385V24.313a5.4,5.4,0,0,0,3.857-7.248,12.152,12.152,0,0,1-13.964.067S21.682,23.914,28.2,24.712Z" transform="translate(-5.856 -5.009)" fill="#0ac4bf" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <ellipse id="Elipse_6469" data-name="Elipse 6469" cx="17.235" cy="15.194" rx="17.235" ry="15.194" transform="translate(8.086 0.353)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_480" data-name="Línea 480" x2="342.31" transform="translate(0 115.055)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_481" data-name="Línea 481" y2="53.461" transform="translate(21.544 59.998)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_482" data-name="Línea 482" y2="53.461" transform="translate(82.984 59.998)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_483" data-name="Línea 483" y2="53.461" transform="translate(136.046 59.998)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_484" data-name="Línea 484" y2="53.461" transform="translate(184.72 59.998)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_485" data-name="Línea 485" y2="53.461" transform="translate(240.574 59.998)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Línea_486" data-name="Línea 486" y2="53.461" transform="translate(293.237 59.998)" fill="none" stroke="#0ac4bf" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
