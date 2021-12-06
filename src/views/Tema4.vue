@@ -502,10 +502,54 @@
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Identificar diseño regular o irregular")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0 Azul claro, blanco, rosado, amarillo y beige.
+              p.mb-4 Una tela tendrá más calidad y será más fácil de manejar si tiene un diseño regular. Esto se comprueba doblando una esquina de la tela en ángulo de 45º y mirando si las rayas y cuadros coinciden o no.
+              figure
+                img(src='@/assets/curso/tema4/img23.png', alt='imagen ambiental', style='width: 432px;').m-auto
                 
-
-
+          .row(numero="2" titulo="Cómo trazar en diseño regular o irregular")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 Si la tela tiene un diseño regular, se trazarán los patrones sobre tela doble, esta deberá doblarse a lo largo de la tela, tomando siempre como referencia una de las líneas del diseño. En el caso de trabajar telas con diseño irregular, la tela no se doblará, sino que se colocará en una sola capa abierta y los patrones que estén doblados se abren sobre ella. De esta manera, se desaprovechará más cantidad de tela.
+              figure
+                img(src='@/assets/curso/tema4/img24.png', alt='imagen ambiental', style='width: 352px;').m-auto
+                
+          .row(numero="3" titulo="Diseño a rayas")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 Las telas con diseño a rayas pueden tener las rayas a lo largo de la tela y/o paralelas a los orillos, o a lo ancho de la tela y/o perpendiculares a estos. A la hora de trazar los patrones sobre este tipo de telas, se colocarán todas las piezas al hilo y con las rayas en el mismo sentido. De lo contrario, a la hora de cortarlas, unas tendrán las rayas en horizontal y otras en vertical, generando diferentes elasticidades y estarán en sentido contrario al hilo.
+              figure
+                img(src='@/assets/curso/tema4/img25.png', alt='imagen ambiental', style='width: 343px;').m-auto
+                
+          .row(numero="4" titulo="Trazar sobre tejido a rayas")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 Para la colocación de los patrones sobre un tejido a rayas, se tienen 2 opciones: si la tela lleva las rayas en perpendicular a los orillos, será la parte inferior del patrón (el bajo de la prenda) la que se tenga que encuadrar con una de las líneas del diseño del tejido. Por el contrario, si la tela lleva las rayas en paralelo a los orillos, serán los laterales de los patrones los que se harán coincidir con las líneas del diseño.4
+              figure
+                img(src='@/assets/curso/tema4/img26.png', alt='imagen ambiental', style='width: 593px;').m-auto
+                
+          .row(numero="5" titulo="Tejidos a cuadros")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 En los tejidos a cuadros, siempre se colocarán los patrones haciéndolos coincidir en su parte inferior (el bajo o ruedo de la prenda) con una de las líneas del diseño de la tela.
+              figure
+                img(src='@/assets/curso/tema4/img27.png', alt='imagen ambiental', style='width: 593px;').m-auto
+                
+          .row(numero="6" titulo="Encajar costuras en telas con patrones")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 Para encajar las costuras laterales de los patrones a la hora de confeccionar, se deberá colocar la pieza delantera sobre la tela y aprovechar las líneas del diseño; se realizan pequeñas marcas a lo largo del costado. Si el ancho del tejido lo permite, se colocarán las partes posterior y delantera en paralelo, una frente a la otra, uniendo las marcas. De esta forma, al coser ambas partes, quedarán encajadas.
+              figure
+                img(src='@/assets/curso/tema4/img28.png', alt='imagen ambiental', style='width: 408px;').m-auto
+                
+          .row(numero="7" titulo="Telas con estampados")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 Para los tejidos estampados con grafías, los patrones se colocarán al hilo sobre la tela. El diseño de este tipo de tejidos siempre sigue un patrón, de tal forma que los dibujos o estampados se repiten de forma cíclica en todo el largo de la tela.
+              p.mb-4 En lo posible, se hacen coincidir las grafías, de tal forma que estas no se pierdan a la hora de confeccionar. Así que se debe estudiar muy bien la posición de los patrones sobre el tejido, prestando mucha atención en las partes delanteras y costados, centrando los patrones sobre la tela e intentando que los dibujos o estampados queden bien posicionados y distribuidos, y que las costuras de unión de 2 piezas y todas las piezas pequeñas se realicen sobre la parte lisa de la tela (sin ningún diseño). Estos son de los que más desperdicio de material presentan. 
+              figure
+                img(src='@/assets/curso/tema4/img29.jpg', alt='imagen ambiental', style='width: 287px;').m-auto
+                
+          .row(numero="8" titulo="Programación ordenada")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-4 Si el tejido a trabajar tiene pelo, ya sea corto o largo, en el caso del terciopelo, pana, rizo, lana, velour, se deberá “peinar” el pelo previamente. Esta labor consiste en pasar la mano por encima del tejido: si el pelo se pliega dócilmente, éste será el sentido del pelo. Por el contrario, si el pelo se levanta, será a contrapelo. 
+              p.mb-4 En estos casos concretos, el hilo del tejido sigue la misma dirección que el pelo hacia abajo (peinado), así que siguiendo esa dirección se colocarán los patrones siguiendo el hilo.
+              figure
+                img(src='@/assets/curso/tema4/img30.jpg', alt='imagen ambiental', style='width: 262px;').m-auto
+                
 
 
 
@@ -513,19 +557,68 @@
     #t_4_5.titulo-segundo.color-acento-contenido
       .h2 4.5 Espigas en el trazo
     
-    
+
+
+    p.mb-4  Los trazos en espiga se realizan cuando se necesita más de un trazo de piezas completas de patrones o de piezas en combinación de color.
+
+    p.mb-5 El trazo se cierra a lo ancho y a lo largo en una o varias tallas completas, este sirve también cuando se piden cantidades distintas y agiliza mucho el proceso de trazo. Este se planea desde el mismo trazo y se ejecuta en el extendido de la tela. Los trazos en espiga se hacen de manera manual o en digital. Las piezas deben estar bien distribuidas, de lo contrario, es mejor no realizarlo por el desperdicio que generaría.
+
+    .titulo-sexto.color-acento-contenido.mb-4
+      span #[strong Figura 5 ] Tendido de espiga y bloques
+
+    .row.mb-5
+      .col-auto
+        figure
+          img(src='@/assets/curso/tema4/img31.svg', alt='imagen ambiental', style='width: 521px;').m-auto
+
+
+
     
     #t_4_6.titulo-segundo.color-acento-contenido
       .h2 4.6 Cálculo de consumo o promedios 
     
+    p.mb-4 Los trazos vienen de manipular los patrones que componen las prendas; estas piezas se definen desde el área de patronaje, que, durante el desarrollo de producto, las organizan sin que falte ninguna.
+    p.mb-4 El marcado o dibujado del perfil de los patrones según las características dimensionales del tejido a emplear puede realizarse directamente sobre el tejido (tejidos a cuadros o rayas) o sobre papel. En cualquier caso, es conveniente efectuar un estudio previo de colocación de los patrones a escala reducida (normalmente a escala 1/5).
     
+    .titulo-sexto.color-acento-contenido.mb-4
+      span #[strong Figura 6 ] Distribución de patrones
     
-    
-    
+    figure.mb-5
+      img(src='@/assets/curso/tema4/img32.svg', alt='imagen ambiental', style='width: ;').m-auto
+
+    p.mb-4 De la mejor forma de situarlos, se obtendrá un consumo menor o mayor de materia prima textil, que incidirá de una manera directa en el costo y precio del artículo. Por esto, el trazo (marcado) es un trabajo que requiere un cuidado especial, ya que de ello depende el aprovechamiento de todo el tejido, sin desperdicios.
+
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 14px;")
+          .row.justify-content-evenly.align-items-center
+            .col-3.col-sm-3.col-lg-2
+              img(src="@/assets/curso/tema2/img5.svg" style="width: 86px;").m-auto
+            .col 
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4 Tenga en Cuenta
+                  p.mb-0 Se debe confirmar el ancho útil de la tela; escuadrar todas las líneas a partir del borde del papel o guía confiable en el cual se quitan los orillos de la tela; verificar con estas líneas los aplomes (hilo) de cada patrón y confirmarlos con escuadra o metro; marcar los piquetes necesarios. En este trazo se debe hacer el aprovechamiento de material teniendo en cuenta las especificaciones técnicas, como los aplomes y dirección de la tela. (Sena, 2012)
+                .col-lg-1
+
+
     #t_4_7.titulo-segundo.color-acento-contenido
       .h2 4.7 Eficiencia del trazo
     
-    
+
+
+    p.mb-4 En los trazos sistematizados, la eficiencia del trazo es una medida de ahorro que da cuenta del desperdicio de la tela, la que se puede aumentar con una buena disposición de los patrones en el tizado. Para el cálculo de la eficiencia, se debe hacer un estimado del área total de los patrones y de cada una de las tallas de las prendas, para luego aplicar el siguiente calculo:
+
+
+
+
+
+
+
+
+
+
     
     #t_4_8.titulo-segundo.color-acento-contenido
       .h2 4.8 Ploteo de trazos
