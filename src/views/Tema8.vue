@@ -408,16 +408,120 @@
 
 
 
-    
+
     
     #t_8_4.titulo-segundo.color-acento-contenido
       .h2 8.4 Corte manual
     
-    
+
+    p.mb-5 
+      b Algunas de las precauciones que se deben tener en cuenta a la hora del corte son:
+
+    .cajon.color-primario.p-4.py-5.mb-4
+      .row.justify-content-center
+        .col-lg-4
+          figure
+            img(src='@/assets/curso/tema8/img19.svg', alt='imagen ambiental', style='width: 390px;').m-auto
+        .col-lg-8
+          ul.lista-ul.mb-0 
+            li
+              i.fas.fa-check(style='color: #BF3976;')
+              p.mb-0 El corte de las prendas debe hacerse de forma natural al hacerse manualmente, siguiendo exactamente el perfil de los patrones; sin ejercer excesiva presión sobre el tendido ni empujar demasiado la cortadora, lo cual evita deformación de la moldearía o bordes deshilados.
+                
+            li
+              i.fas.fa-check(style='color: #BF3976;')
+              p.mb-0 La máquina cortadora debe tener perfectamente afilada la cuchilla para que los bordes queden parejos, y en buenas condiciones su sistema de lubricación y refrigeración. El emplear una cortadora de cuchilla vertical o circular depende del espesor del tendido; las circulares se usan al cortar tendidos de pocas capas y las verticales, en caso contrario.
+                
+            li
+              i.fas.fa-check(style='color: #BF3976;')
+              p.mb-0 Con telas pesadas o lisas se debe utilizar la ayuda de pinzas para sujetar el bloque y evitar el deslizamiento del tejido. Las telas de índigo tramadas con lycra deben pasar al área de confección a más tardar 24 horas después de cortadas, para evitar que esta fibra se recoja del borde del corte hacia adentro, dando mal apariencia al corte final.
+                
+            li
+              i.fas.fa-check(style='color: #BF3976;')
+              p.mb-0 Concienzudos estudios estadísticos realizados por importantes empresas de confección de vestuario han demostrado que, de cada tres defectos aislados, solo uno de ellos ocasiona reposición y los otros dos quedan bien sea fuera del molde o tan cerca de los bordes de este que son absorbidos al confeccionar.
+                
+            li
+              i.fas.fa-check(style='color: #BF3976;')
+              p.mb-0 Tejidos con acabados afelpados, tipo pana, colteroy, y esmerilados o perchados deben extenderse con la orientación del pelo siempre en el mismo sentido, para evitar diferencias de tonos al ensamblar las prendas.
+                
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-0(style="border-radius: 5px; background-color: #BF3976;")
+          .row.justify-content-evenly.align-items-center
+            .col-3.col-sm-3.col-lg-2
+              img(src="@/assets/curso/tema3/img8.svg" style="width: 73px;").m-auto
+            .col 
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-0 Para ver las normas de calidad en el corte, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
+                .col-lg-1
+
     
     #t_8_5.titulo-segundo.color-acento-contenido
-      .h2 8.5 Corte manual
+      .h2 8.5 Seguridad Industrial
 
+    p.mb-5 En la Ley 31 de 1995 de Prevención de Riesgos Laborales, su objetivo es promover la seguridad y la salud de los trabajadores mediante la aplicación de las medidas y el desarrollo de las actividades necesarias para la prevención de riesgos derivados del trabajo. La mayoría de los accidentes producidos en el sector de corte y confección se producen por el uso irresponsable de maquinaria y herramientas, en las partes de corte, cosido o prensado, produciendo cortes, golpes, atrapamientos o proyecciones de material. No se deben olvidar también otros riesgos de carácter ergonómico por inadecuadas posturas de trabajo. El manejo de normas de seguridad industrial es de suma importancia, entre estas están:
+
+    .cajon.color-acento-botones.mb-5.p-5
+      .row.justify-content-center
+        .col-lg-8
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon1.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 El uso de guantes metálicos y guantes de lycra para proteger las manos de la máquina, confeccionados 100% en malla de acero inoxidable 316L, poseen ajuste a la muñeca con sistema especial Wilcox; se trata de guantes ambidiestros y deben estar certificados bajo norma europea.
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon2.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 El uso de tapabocas durante todo el proceso, para evitar alergias por polución de las telas.
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon3.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 Tener una excelente postura durante todo el proceso, para evitar riesgos ergonómicos en la manipulación de cargas, ya que algunas causan molestias en áreas del cuerpo como la cintura.
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon4.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 No usar ningún accesorio decorativo en el cuerpo, como cadenas, pulseras, anillos o aretes, ni siquiera cuando se esté usando el guante
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon5.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 No obstaculizar el paso en el sitio de trabajo, prestar atención en las áreas de extendido automatizado, pues se puede causar un accidente; mantener el piso limpio y libre de rollos de tela.
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon6.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 Ubicar en el espacio de trabajo los tacos eléctricos y los botones de encendido y apagado de las máquinas, los elementos de seguridad, como botiquín y extintor de incendios.
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon7.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 Procurar mantener el espacio de trabajo con una óptima ventilación e iluminación.
+                  
+          .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema8/icon7.svg' alt='AvatarTop' style="width: 77px")
+            .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
+              .p-4
+                p.mb-0 Utilizar cofia, necesaria para la protección del cabello de las mujeres y los hombres de cabello largo.
+                  
 
 
 
