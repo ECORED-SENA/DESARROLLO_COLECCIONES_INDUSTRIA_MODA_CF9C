@@ -283,10 +283,131 @@
           
 
 
+    .row.justify-content-center.mb-5
+      .col-11.mb-5
+        .tarjeta.tarjeta--azuverde.p-4.py-lg-5(style="border-radius: 0;")
+          SlyderA
+            .row.align-items-center.justify-content-center
+              .col-11.col-md-5.mb-4.mb-md-0
+                p.mb-0 El carro extendedor de tejido, que extiende uniformemente una sola capa de tejido.
+                  
+              .col-10.col-md-5
+                figure
+                  img(src='@/assets/curso/tema8/img13.png', alt='imagen ambiental', style='width: 335px;').m-auto
+                    
+            .row.align-items-center.justify-content-center
+              .col-11.col-md-5.mb-4.mb-md-0
+                p.mb-0 La mesa de corte, que está constituida por una cinta móvil que, a la vez que hace de mesa o soporte de corte, sirve para trasladar la capa de tejido destrozada al puesto de tejido siguiente. Esta mesa de corte soporta muchos grados de temperatura, su configuración es a base de elementos metálicos dispuestos en forma de panal de abeja o rejilla.
+                  
+              .col-10.col-md-5
+                figure
+                  img(src='@/assets/curso/tema8/img14.png', alt='imagen ambiental', style='width: 335px;').m-auto
+                    
+            .row.align-items-center.justify-content-center
+              .col-11.col-md-5.mb-4.mb-md-0
+                p.mb-0 La cámara láser va insertada en un carro que se traslada en dirección transversal y, por el propio movimiento del carro, en dirección longitudinal.
+                  
+              .col-10.col-md-5
+                figure
+                  img(src='@/assets/curso/tema8/img15.png', alt='imagen ambiental', style='width: 335px;').m-auto
+                    
+            .row.align-items-center.justify-content-center
+              .col-11.col-md-5.mb-4.mb-md-0
+                p.mb-0 La cinta transportadora avanza el tejido hasta el cabezal de corte, y una vez depositado allí, se somete a una fuerte succión para que el tejido no se mueva. A continuación, el haz luminoso procede al corte de la tela. 
+                  
+              .col-10.col-md-5
+                figure
+                  img(src='@/assets/curso/tema8/img16.png', alt='imagen ambiental', style='width: 335px;').m-auto
+                    
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-4.mb-lg-0
+        h4.mb-4 Corte por chorro de agua
+        p.mb-4 El corte por chorro de agua es un sistema que está poco explotado aún, y consta de las siguientes partes:
+        ul.lista-ul.mb-0 
+          li
+            i.fas.fa-check(style='color: #BF3976;')
+            p.mb-0 Dos hileras soporte, a modo de filetas, para los rollos de tejido, con unos rodillos de alimentación.
+          li
+            i.fas.fa-check(style='color: #BF3976;')
+            p.mb-0 La unidad de alimentación de los tejidos, que tiene como misión el transporte de estos hasta la zona de corte. Esta unidad dispone de un dispositivo para el alineamiento de rodillos, pudiendo alinear, a la vez, hasta 12 capas juntas.
+          li
+            i.fas.fa-check(style='color: #BF3976;')
+            p.mb-0 La unidad de chorro de agua, que consta del llamado cabezal de corte, se desplaza transversalmente a lo largo de ese soporte. Consta de un carro que se desplaza longitudinalmente sobre las guías laterales de la mesa de corte.
+          li
+            i.fas.fa-check(style='color: #BF3976;')
+            p.mb-0 La mesa de corte, propiamente dicha, con el dispositivo de sujeción del género y otro dispositivo para la evacuación del agua.
+        
+      .col-10.col-lg-6
+        .row.justify-content-center
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido.mb-4
+              p.mb-0
+                b(style="font-size: 16px") Figura 17 
+                b-none Sistema de corte chorro de agua
+              //span #[strong figura 17] Sistema de corte chorro de agua
+            figure.mb-0
+              img(src='@/assets/curso/tema8/img17.png', alt='imagen ambiental', style='width: 448px;').m-auto
+
+    .row.mb-5
+      .col-lg-6
+        p.mb-0 Por medio de los movimientos del cabezal, situado en el carro, es posible alcanzar cualquier punto de la mesa de corte, pudiendo, por lo tanto, seguir perfectamente el contorno de los patrones a cortar.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        PasosA.color-secundario.mb-5(tipo="l")
+          .row.justify-content-around
+            .col-lg-9
+              p.mb-0 La herramienta que se utiliza en el corte es un fino chorro de agua a presión, mezclada con un polímero, para mejorar la fluidez. Pasa a continuación por un difusor, a una velocidad entre 700 y 1.000 m/s.
+            .col-lg-2
+                
+          .row.justify-content-around
+            .col-lg-3
+            .col-lg-8
+              p.mb-0 Este chorro tiene en la boquilla 0,15 mm y el caudal es aproximadamente de 1,892 l/min.
+                
+          .row.justify-content-around
+            .col-lg-9
+              p.mb-0 La velocidad de corte es elevada, oscilando entre 15 y 20 m/s. siempre en función de la altura del colchón y del tejido a cortar; esta altura de colchón oscila entre 20 y 30 cm.
+            .col-lg-2
+                
+          .row.justify-content-around
+            .col-lg-3
+            .col-lg-8
+              p.mb-0 La diferencia de corte entre el sistema de cuchillas y este estriba, fundamentalmente, en la limpieza del primero.
+                
+          .row.justify-content-around
+            .col-lg-9
+              p.mb-0 El corte por cuchilla se puede considerar un corte limpio, ya que secciona la fibra, mientras que en el corte por chorro de agua, la fibra se parte por tracción, al incidir el chorro de agua en la fibra, la parte y la deshilacha.
+            .col-lg-2
+                
+
+    p.mb-4 Este sistema posee la llamada mesa de evacuación, a la que se transportan las piezas cortadas, donde un operario, con la máquina de etiquetar, marca una a una las partes componentes de la prenda con la que se esté trabajando, y a partir de aquí, se va a distribuir de forma automática por los diferentes puestos de trabajo.
+
+
+    .row.justify-content-center.mb-5
+      .titulo-sexto.color-acento-contenido.mb-4
+        p.mb-0
+          b(style="font-size: 15.5px") Figura 18 
+          b-none Sistema de corte por ultrasonido
+      .col-lg-5.mb-4.mb-lg-0
+        figure.mb-0
+          img(src='@/assets/curso/tema8/img18.png', alt='imagen ambiental', style='width: 448px;').m-auto
+      .col-lg-7
+        h4.mb-4 Corte por ultrasonido
+        p La herramienta de corte es una cuchilla oscilando a frecuencia ultrasónica. Las oscilaciones, que no son perceptibles para el oído humano, garantizan un corte rápido y preciso de contornos.
+        p.mb-0 Se puede aumentar el rendimiento de corte con la utilización de un segundo cabezal de corte para trabajar en la misma capa de material (10 capas como máximo de altura).
+
+
 
     #t_8_3.titulo-segundo.color-acento-contenido
       .h2 8.3 Corte manual
-    
+
+
+    p.mb-5 Se llama destrozar al efecto de cortar en bloque el conjunto de telas del colchón sin gran precisión, es decir, sin seguir en todo el recorrido los perfiles dibujados de los patrones. En este proceso, se mueve la maquina y no el material (la tela). Para esta forma de cortar, se emplean máquinas de corte de dos tipos: cortadora circular (disco), cortadora vertical.
+
+
+
     
     
     #t_8_4.titulo-segundo.color-acento-contenido
