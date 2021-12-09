@@ -362,7 +362,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-0 ¿Cómo averiguar el número de tendidos (número de tendidos o “colchones” se refiere a la cantidad de capas a extender según el tipo de tejido) a realizar?
+                  p.mb-0
+                    b ¿Cómo averiguar el número de tendidos (número de tendidos o “colchones” se refiere a la cantidad de capas a extender según el tipo de tejido) a realizar?
                 .col-lg-2
           
     .row.justify-content-center.mb-5
@@ -465,7 +466,8 @@
                 
                 
       .col-lg-7
-        p.mb-4 La orden de corte debe estar siempre por escrito, teniendo en cuenta que en este trabajo se maneja materia prima con altos costos económicos; cada empresa tiene un diseño propio para este documento (Tèxtil Balsareny, 2019).  La siguiente figura muestra un ejemplo de este formato.
+        p.mb-4 La orden de corte debe estar siempre por escrito, teniendo en cuenta que en este trabajo se maneja materia prima con altos costos económicos; cada empresa tiene un diseño propio para este documento (Tèxtil Balsareny, 2019). 
+          b La siguiente figura muestra un ejemplo de este formato.
           
         .titulo-sexto.color-acento-contenido.mb-4
           span #[strong Figura 1 ] Documento orden de corte fuente

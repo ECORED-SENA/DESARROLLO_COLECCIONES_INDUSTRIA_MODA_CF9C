@@ -454,7 +454,9 @@
             .col 
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-0 Para ver las normas de calidad en el corte, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
+                  p.mb-0 Para ver las 
+                    b normas de calidad en el corte, 
+                    b-none se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
                 .col-lg-1
 
     

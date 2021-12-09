@@ -187,7 +187,11 @@
               img(src='@/assets/curso/tema4/img13.svg', alt='', style='width: 220px;').m-auto
           .col-lg-9
             .bloque-texto-a__texto.p-4
-              p.mb-0 El peso de las telas depende totalmente del tipo de tejido en el que se hace, este está determinado y dado comercialmente en onzas/-Yardas2 para referirse al peso de las telas tipo jeans wear. Se consideran telas livianas tipo dénim de 9 onzas/-Yardas2, y pesadas a partir de 9.5 onzas/-Yardas2. Los pesos de las telas dénim pueden cambiar y tienen una tolerancia de +/- 5%, según la norma NTC 5656. En las telas stretch y con altos encogimientos, tienden a ganar peso después de los procesos de lavandería. Por ello, el peso crudo y el peso lavado se informan en la ficha técnica. Además, esto se debe tener muy en cuenta al trazar el número de patrones. (Tèxtil Balsareny, 2019)
+              p.mb-0 El peso de las telas depende totalmente del tipo de tejido en el que se hace, este está determinado y dado comercialmente en 
+                b onzas/-Yardas2 
+                b-none para referirse al peso de las telas tipo jeans wear. Se consideran telas livianas tipo dénim de 9 
+                b onzas/-Yardas2, 
+                b-none y pesadas a partir de 9.5 onzas/-Yardas2. Los pesos de las telas dénim pueden cambiar y tienen una tolerancia de +/- 5%, según la norma NTC 5656. En las telas <em>stretch</em> y con altos encogimientos, tienden a ganar peso después de los procesos de lavandería. Por ello, el peso crudo y el peso lavado se informan en la ficha técnica. Además, esto se debe tener muy en cuenta al trazar el número de patrones. (Tèxtil Balsareny, 2019)
                 
 
     p.mb-4 La marcada o tizada se divide según el tipo de tejido. 
@@ -200,7 +204,7 @@
               i.fas.fa-check(style='color: #BF3976;')
               p.mb-0
                 b Tizado en tela punto: 
-                b-none la tela a emplear es jersey 30/1, 24/1, inter look, franela. El tipo de acabado es de color entero, tela listada. Cuando se tiza en tela de punto es recomendable dejar una separación entre patrón y patrón de 3mm, para prevenir el encogimiento de la prenda después de cortada.
+                b-none la tela a emplear es <em>jersey</em> 30/1, 24/1, <em>inter look</em>, franela. El tipo de acabado es de color entero, tela listada. Cuando se tiza en tela de punto es recomendable dejar una separación entre patrón y patrón de 3mm, para prevenir el encogimiento de la prenda después de cortada.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -247,7 +251,7 @@
 
 
     #t_4_1.titulo-segundo.color-acento-contenido
-      .h2 4.1 Programación de corta
+      .h2 4.1 Sistemas para trazar
     
     
     .row.justify-content-center.mb-5
@@ -695,12 +699,12 @@
       .col-lg-7 
         .tarjeta.color-primario.p-3.mb-0(style="border-radius: 5px; background-color: #BF3976;")
           .row.justify-content-evenly.align-items-center
-            .col-3.col-sm-3.col-lg-2
+            .col-3.col-sm-3.col-lg-3
               img(src="@/assets/curso/tema3/img8.svg" style="width: 73px;").m-auto
-            .col 
+            .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-0 Para ver las “Normas de Calidad” para trazar, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
+                  p.mb-0  Para ver las “Normas de Calidad” para trazar, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
                 .col-lg-2
 
 

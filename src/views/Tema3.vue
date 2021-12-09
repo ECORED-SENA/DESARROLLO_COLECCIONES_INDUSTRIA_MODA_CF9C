@@ -134,7 +134,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-0 Para ver las “normas de calidad” en la recepción de productos y forma de almacenamiento, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
+                  p.mb-0 Para ver las “
+                    b normas de calidad
+                    b-none ” en la recepción de productos y forma de almacenamiento, se invita al aprendiz a revisar el documento con dicho nombre en la sección de material complementario.
                 .col-lg-2
 
 </template>

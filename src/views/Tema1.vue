@@ -29,16 +29,20 @@
           ul.lista-ul
             li.mb-1 
               i.fas.fa-check(style='color: #0AC4BF;')
-              p.mb-0 El proceso de la distribución y ubicación correcta de los patrones.
+              p.mb-0 
+                b El proceso de la distribución y ubicación correcta de los patrones.
             li.mb-1 
               i.fas.fa-check(style='color: #0AC4BF;')
-              p.mb-0 El aprovechamiento del material.
+              p.mb-0 
+                b El aprovechamiento del material.
             li.mb-1 
               i.fas.fa-check(style='color: #0AC4BF;')
-              p.mb-0 La calidad del producto.
+              p.mb-0 
+                b La calidad del producto.
             li.mb-1 
               i.fas.fa-check(style='color: #0AC4BF;')
-              p.mb-0 La productividad de la empresa.
+              p.mb-0 
+                b La productividad de la empresa.
 
     .row.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
