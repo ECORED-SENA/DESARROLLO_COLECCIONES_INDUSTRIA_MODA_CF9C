@@ -468,7 +468,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         figure
-          img(src='@/assets/curso/tema4/img20.png', alt='imagen ambiental', style='').m-auto
+          img(src='@/assets/curso/tema4/F21.png', alt='Trazo sistematizado', style='').m-auto
 
 
     p.mb-5 Las marcaciones hacen referencia al número de veces en que una prenda está trazada sobre el área de trabajo. La talla puede repetirse, por lo tanto, se cuenta como una marcación. Una marcación corresponde a una prenda marcada, dos marcaciones a dos prendas marcadas y así sucesivamente. Se manejan dos tipos de trazo de acuerdo con el vello en ambos sentidos (bidireccional) o en un solo sentido (direccional):
@@ -481,13 +481,13 @@
           p.mb-0 Se elabora el trazo o marcado colocando en dos sentidos de dirección todos los patrones o piezas de todas las tallas que se van a cortar (teniendo en cuenta la línea de aplome o hilo de urdimbre, el patrón se mueve de forma horizontal hacia la izquierda o la derecha). El material textil que se utilice no debe tener restricción con respecto a sus características (brillo u otra característica), por lo tanto, se empleará menos cantidad de tela. Según el producto, la eficacia del marcador se aproximará a un promedio del 81-85 %. Esto quiere decir el poder ubicar cada pieza que compone la prenda en el ancho y largo de la tela para lograr un consumo óptimo de la tela, sin desperdicio de material, y lo ideal es que llegue a más del 80 %.
       .col-lg-6
         figure
-          img(src='@/assets/curso/tema4/img21.png', alt='imagen ambiental', style='').m-auto
+          img(src='@/assets/curso/tema4/F22.png', alt='imagen ambiental', style='').m-auto
 
 
     .row.justify-content-center.mb-5
       .col-lg-6
         figure
-          img(src='@/assets/curso/tema4/img22.png', alt='imagen ambiental', style='').m-auto
+          img(src='@/assets/curso/tema4/F23.png', alt='imagen ambiental', style='').m-auto
       .col-lg-6.mb-4.mb-lg-0
         .cajon-b.color-acento-contenido.p-3.mb-0
           p
