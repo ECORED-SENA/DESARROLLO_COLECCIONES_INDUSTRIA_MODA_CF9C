@@ -142,8 +142,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.mb-5.text-center
-          b(style="color: #BF3976;") Tipo de Orillo Selvedge o Selvage
+        h4.mb-5.text-center(style="color: #BF3976;") Tipo de orillo selvedge o selvage
         
         PasosA.color-secundario.mb-5(tipo="l")
           .row.justify-content-center.align-items-center
@@ -221,8 +220,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.mb-5.text-center
-          b(style="color: #BF3976;") Programación Tizado
+        h4.mb-5.text-center(style="color: #BF3976;") Programación tizado
         
         PasosA.color-secundario.mb-5(tipo="l")
           .row

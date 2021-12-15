@@ -233,7 +233,7 @@
                 td Referencia: 
                 td Tipo de prenda: camisa junior
               tr
-                td Tipo de tejido: Dril Mariscal
+                td Tipo de tejido: dril mariscal
                 td Valor $ 6800 
               tr
                 td Promedio Cliente: 1.16

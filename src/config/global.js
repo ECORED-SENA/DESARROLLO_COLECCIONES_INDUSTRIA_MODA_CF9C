@@ -431,8 +431,7 @@ export default {
       descarga: '/downloads/anexo2.pdf',
     },
     {
-      texto:
-        'Lafayette Sports. (s. f.). Pasos indispensables para el proceso de confección.',
+      texto: 'Lafayette Sports. (s. f.). Tiempos de reposo.',
       tipo: 'Video',
       link:
         'https://www.lafayettesports.com.co/wp-content/uploads/confeccion-reposo.mp4',
