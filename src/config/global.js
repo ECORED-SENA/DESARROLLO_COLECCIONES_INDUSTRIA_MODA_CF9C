@@ -427,41 +427,42 @@ export default {
     },
     {
       texto: 'Arelisamiga. (2010). Clasificación del tizado. Slideshare.',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo2.pdf',
     },
     {
       texto:
         'Lafayette Sports. (s. f.). Pasos indispensables para el proceso de confección.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.lafayettesports.com.co/wp-content/uploads/confeccion-reposo.mp4',
     },
     {
       texto: 'Contacto Textil. (2019). Manual de calidad y recomendaciones.',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo3.pdf',
     },
     {
       texto:
         'Plotter Technology. (s. f.-a). Ficha técnica <em>FastJet PRO</em>.',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo4.pdf',
     },
     {
       texto:
         'Plotter Technology. (s. f.-b). Ficha técnica <em>Static Duet Table</em>. ',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo5.pdf',
     },
     {
       texto: 'Giraldo, M. (1990). Procesos básicos en la sala de corte. SENA. ',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo6.pdf',
     },
     {
       texto:
         'Gómez, C. (2019). Automatización del corte en el sector textil confección. Universidad EAFIT. ',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo7.pdf',
     },
     {
@@ -479,18 +480,18 @@ export default {
     },
     {
       texto: 'Coltejer. (2017). Manual de calidad. Textiles. ',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo8.pdf',
     },
     {
       texto: 'Osorio, M., Yepes, M. y Sepúlveda, R. (2021). Normas de calidad.',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo9.pdf',
     },
     {
       texto:
         'Centro Nacional Textil. (1980). Orillos en tejido plano. SENA Regional Medellín.',
-      tipo: 'PDF',
+      tipo: 'Pdf',
       descarga: '/downloads/anexo10.pdf',
     },
     {
@@ -506,7 +507,7 @@ export default {
     },
     {
       texto: 'Eastman Machine. (s. f.). <em>SLS3 For Stack Labeling</em>.',
-      tipo: 'Video',
+      tipo: 'Articulo',
       link: 'https://www.eastmancuts.com/news/sls3-for-stack-labeling/',
     },
     {
@@ -530,11 +531,6 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Marisol Osorio Beltrán',
-        cargo: 'Líder Sennova',
-        centro: 'Centro de diseño confección y moda - Regional Antioquia.',
       },
       {
         nombre: 'María Luisa Yepes Sierra',
@@ -587,28 +583,58 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Andrés Mauricio Santaella Ochoa',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      /*{
         nombre: 'Zuleidy María Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

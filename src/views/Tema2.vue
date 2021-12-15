@@ -41,7 +41,7 @@
     p.mb-4 Esta programación se basa en la información que contiene el presupuesto de ventas entregado y en el que se dispone la cantidad de prendas pedidas según referencia. Aquí se expone un ejemplo de este tipo de programación:
 
     .row.mb-5
-      .col-lg-8.mb-5
+      .col-auto.col-lg-9.mb-5
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Escoger los colores.")
             .col-md-12.mb-4.mb-md-0
@@ -226,12 +226,12 @@
           table(style="min-width: 500px")
             thead
               tr(style="background-color: #fff")
-                th Fecha: 
-                th Cliente: 
+                th.text-start Fecha: 
+                th.text-start Cliente: 
             tbody
               tr
                 td Referencia: 
-                td Tipo de prenda: Camisa Junior
+                td Tipo de prenda: camisa junior
               tr
                 td Tipo de tejido: Dril Mariscal
                 td Valor $ 6800 
@@ -423,7 +423,7 @@
                 img(src="@/assets/curso/tema2/img7.svg" style="width: 195px;").m-auto
 
 
-    p.mb-5 Sirve principalmente para tener control del stock de las piezas que se van a confeccionar. De esta manera, la empresa se asegura de no tener más stock en el almacén de telas del que se debería para color del mismo modelo. Esto es importante a nivel económico, en la medida en que se reducen gastos y se controla el proceso industrial. Se estructura a través de unos puntos que se completan para que, al llegar al proceso de producción, se tenga claro y quede constancia de lo que se va a producir. Algunos de los puntos más importantes a tener en cuento en una orden son:
+    p.mb-5 Sirve principalmente para tener control del <em>stock</em> de las piezas que se van a confeccionar. De esta manera, la empresa se asegura de no tener más <em>stock</em> en el almacén de telas del que se debería para color del mismo modelo. Esto es importante a nivel económico, en la medida en que se reducen gastos y se controla el proceso industrial. Se estructura a través de unos puntos que se completan para que, al llegar al proceso de producción, se tenga claro y quede constancia de lo que se va a producir. Algunos de los puntos más importantes a tener en cuento en una orden son:
 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
@@ -453,9 +453,7 @@
             li
               i.fas.fa-check(style='color: #BF3976;')
               p.mb-0 Controles de telas en la selección
-            li
-              i.fas.fa-check(style='color: #BF3976;')
-              p.mb-0 Controles de telas en la selección
+              
             li
               i.fas.fa-check(style='color: #BF3976;')
               p.mb-0 Responsables de la orden

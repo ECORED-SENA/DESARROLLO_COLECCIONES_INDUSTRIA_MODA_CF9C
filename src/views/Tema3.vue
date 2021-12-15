@@ -119,7 +119,7 @@
             .row.align-items-top.justify-content-center
               .col-11.col-md-5.mb-4.mb-md-0
                 h4.mb-4 Almacenaje en bóveda o paneles
-                p.mb-0 Este sistema nos permite almacenar tejidos que son muy delicados (sedas, lycras), que, al ser almacenados en los anteriores sistemas, pueden presentar deformaciones internas.  También da la facilidad de almacenar tejidos en reposo, como son los tejidos de punto.
+                p.mb-0 Este sistema nos permite almacenar tejidos que son muy delicados (sedas, <em>lycras</em>), que, al ser almacenados en los anteriores sistemas, pueden presentar deformaciones internas.  También da la facilidad de almacenar tejidos en reposo, como son los tejidos de punto.
                   
               .col-10.col-md-5
                 figure

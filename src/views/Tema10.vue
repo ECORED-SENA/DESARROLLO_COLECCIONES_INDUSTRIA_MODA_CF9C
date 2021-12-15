@@ -7,11 +7,9 @@
       .titulo-principal__numero
         span.text-white 10
       h1 Máquinas auxiliares en el departamento de corte
-    
-    
 
 
-    p.mb-5 El corte de muestras se hace cuando no se necesita trazar, extender o cortar una gran cantidad de piezas, o se necesita solo una prenda para enviar a confeccionar y rectificar todos los demás procesos con ella, entre ellos diseño, patronaje y confección, y por supuesto la ficha técnica. Los pasos a realizar son:
+    p.mb-5 El área de trazo y corte, aparte de la maquinaria ya mencionada, tanto manual como automatizada, está compuesta por otro tipo de maquinaria auxiliar, que completa la calidad del proceso, entre la que se encuentran:
 
 
     p.mb-4
@@ -86,7 +84,8 @@
 
     .cajon-b.color-primario.p-3.mb-4
       p.mb-0 Como elemento auxiliar de esta operación, se ha empleado un aparato sencillo, que consta de una pequeña cuchilla en forma de uña que está colocada sobre una guía vertical y que se conserva en la posición más alta debido a un muelle interior. Cuando se desea marcar una referencia exterior en un paquete de telas, se aplica el aparato contra ellas y con la mano se presiona hacia abajo, de forma que la cuchilla corte todas las hojas o capas.
-
+    
+    p.mb-4 Esta solución, que en un principio parece rápida y económica, se convierte en muchos casos en algo difícil e imposible cuando el número de capas es elevado, los tejidos son demasiados rígidos, o con tejidos con mucha elasticidad.
     p.mb-4 En estos casos, se emplean marcadores por calor, que consisten en una cuchilla vertical en forma de “V”, que está conectada a una fuente de calor, producido normalmente por una resistencia eléctrica. Esta tiene varias formas para producir diferentes intensidades de calor según los tejidos a marcar.
 
 
@@ -99,10 +98,10 @@
 
 
     .row.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.order-2.order-lg-1
         figure
           img(src='@/assets/curso/tema10/img4.png', alt='imagen ambiental', style='width: 530px;').m-auto
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
         .row.justify-content-center
           .col-10
             h4.mb-4 Máquinas móviles
@@ -110,7 +109,7 @@
 
 
     .row.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.order-2.order-lg-1
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -137,7 +136,7 @@
               b-none Este tipo de maquina automatiza completamente el proceso de etiquetado, reduciendo considerablemente el tiempo, mano de obra y eliminando costosos errores que pueden ocurrir con el etiquetado manual. Posee etiquetas autoadhesivas reemplazando grandes patrones de papel o marcadores utilizados para fines de identificación. Esta puede interactuar con cualquier sistema CAD y su trabajo es imprimir y fijar etiquetas de patrones para la capa superior de tela, y acumula hasta 4 pulgadas (10,16 cm) de alto. Imprime y aplica las etiquetas en un solo paso, posee un cabezal de impresión térmica, tiene control de velocidad ajustable. Usa etiquetas estándar de 1” x 2” o 1,25” x 0,5”, soporta números 0-9 y caracteres A-Z, entre otros. Tiene uno de los siete tipos de códigos de barras disponible (el estándar es CODE39). Posee una capacidad para 9 campos de información en diversos tamaños de fuente y funciona con todas las tablas estándar de difusión. 
                 
         
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
         .row.justify-content-center
           .col-10
             h4.mb-4 Máquinas fijas
@@ -175,10 +174,10 @@
 
 
     .row.justify-content-center.mb-5
-      .col-10.col-lg-4.mb-4.mb-lg-0
+      .col-10.col-lg-4.order-2.order-lg-1
         figure
           img(src='@/assets/curso/tema10/img8.png', alt='imagen ambiental', style='width: 340px;').m-auto
-      .col-lg-8
+      .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
         p.mb-4
           b(style="color: #0AC4BF;") Grapadora
         p.mb-4 Es una cosedora a la cual le falta la base, permitiendo colocar un gancho en las zonas interiores del extendido. Los ganchos o grapas usados en confección varían en su tamaño y forma, dependiendo del tipo de tejido y el número de capas extendidas.
@@ -187,10 +186,10 @@
 
 
     .row.justify-content-center.mb-5
-      .col-10.col-lg-4.mb-4.mb-lg-0
+      .col-10.col-lg-4.order-2.order-lg-1
         figure
           img(src='@/assets/curso/tema10/img9.png', alt='imagen ambiental', style='width: 355px;').m-auto
-      .col-lg-8
+      .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
         p.mb-4
           b(style="color: #0AC4BF;") Cortadora de extremos
         p.mb-4 Uno de los principales problemas de tirar de una tela de un rollo montado al extremo de la mesa de corte es el tiempo, esfuerzo y tejidos derrochados al cortar cada capa. Puesto que hacer un corte recto es difícil, el extendedor deja siempre un margen adicional.

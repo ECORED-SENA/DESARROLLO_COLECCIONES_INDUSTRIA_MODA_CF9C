@@ -29,7 +29,7 @@
               img(src='@/assets/curso/tema6/img2.svg', alt='', style='width: 220px;').m-auto
           .col-lg-9
             .bloque-texto-a__texto.p-5
-              p.mb-0 Es necesario tener en cuenta el tipo de tejido y sus fibras para determinar los tiempos de reposo, por ejemplo, en tejidos planos con mezcla de elastano, el tiempo de reposo es de 20 a 24 horas, mientras que para un tejido plano 100% poliéster es solo de 3 a 4 horas. En caso del tejido de punto, el tiempo es de 20 a 24 horas para ambos tipos (Lafayette, s. f.).
+              p.mb-0 Es necesario tener en cuenta el tipo de tejido y sus fibras para determinar los tiempos de reposo, por ejemplo, en tejidos planos con mezcla de elastano, el tiempo de reposo es de 20 a 24 horas, mientras que para un tejido plano 100 % poliéster es solo de 3 a 4 horas. En caso del tejido de punto, el tiempo es de 20 a 24 horas para ambos tipos (Lafayette, s. f.).
 
     p.mb-5 En los tejidos de punto con spandex, el tiempo de reposo es de 12 a 24 horas; el tejido Rib, de 24 horas; para ropa interior, los encajes, blondas y tul con elastómero, es de 12 horas, al igual que las mallas elásticas. Otras consideraciones para tener en cuenta a la hora de reposar la tela son:
 

@@ -118,7 +118,7 @@
             .row.align-items-top.justify-content-center
               .col-11.col-md-5.mb-4.mb-md-0
                 h4.mb-4 Ancho del trazo
-                p.mb-4 Es la medida útil de la tela sin tener en cuenta los orillos (bordes) a lado y lado. Se deben arreglar las piezas de forma que no se genere desperdicio de tela, aprovechándola de la mejor manera. Estos anchos deben medirse en el rollo de tela, antes de iniciar con el trazo. Este tiene una tolerancia de +/- 2%, según la norma ASTM D5430. Tanto en el tiquete que trae el rollo cómo en la ficha técnica, está determinado el ancho de la tela.
+                p.mb-4 Es la medida útil de la tela sin tener en cuenta los orillos (bordes) a lado y lado. Se deben arreglar las piezas de forma que no se genere desperdicio de tela, aprovechándola de la mejor manera. Estos anchos deben medirse en el rollo de tela, antes de iniciar con el trazo. Este tiene una tolerancia de +/- 2 %, según la norma ASTM D5430. Tanto en el tiquete que trae el rollo cómo en la ficha técnica, está determinado el ancho de la tela.
                   
               .col-10.col-md-5
                 figure
@@ -143,7 +143,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         p.mb-5.text-center
-          b(style="color: #BF3976;") TIPO DE ORILLO SELVEDGE O SELVAGE
+          b(style="color: #BF3976;") Tipo de Orillo Selvedge o Selvage
         
         PasosA.color-secundario.mb-5(tipo="l")
           .row.justify-content-center.align-items-center
@@ -176,7 +176,7 @@
                 img(src='@/assets/curso/tema4/img12.jpg', alt='imagen ambiental', style='width: 178px;').m-auto
             .col-lg-8
               h4.mb-4 Lisos y estampados
-              p.mb-0 En los tejidos estampados, este borde es usado para controlar los colores básicos de los que consta el dibujo, numerándolos en el orden de estampación, además, para añadir la marca del fabricante. Este orillo es pegamento en su mayoría.
+              p.mb-0 En los tejidos estampados, este borde es usado para controlar los colores básicos de los que consta el dibujo, enumerándolos en el orden de estampación, además, para añadir la marca del fabricante. Este orillo es pegamento en su mayoría.
               
 
     .row.justify-content-center.mb-5
@@ -189,9 +189,9 @@
             .bloque-texto-a__texto.p-4
               p.mb-0 El peso de las telas depende totalmente del tipo de tejido en el que se hace, este está determinado y dado comercialmente en 
                 b onzas/-Yardas2 
-                b-none para referirse al peso de las telas tipo jeans wear. Se consideran telas livianas tipo dénim de 9 
+                b-none para referirse al peso de las telas tipo jeans wear. Se consideran telas livianas tipo <em>dénim</em> de 9 
                 b onzas/-Yardas2, 
-                b-none y pesadas a partir de 9.5 onzas/-Yardas2. Los pesos de las telas dénim pueden cambiar y tienen una tolerancia de +/- 5%, según la norma NTC 5656. En las telas <em>stretch</em> y con altos encogimientos, tienden a ganar peso después de los procesos de lavandería. Por ello, el peso crudo y el peso lavado se informan en la ficha técnica. Además, esto se debe tener muy en cuenta al trazar el número de patrones. (Tèxtil Balsareny, 2019)
+                b-none y pesadas a partir de 9.5 onzas/-Yardas2. Los pesos de las telas <em>dénim</em> pueden cambiar y tienen una tolerancia de +/- 5 %, según la norma NTC 5656. En las telas <em>stretch</em> y con altos encogimientos, tienden a ganar peso después de los procesos de lavandería. Por ello, el peso crudo y el peso lavado se informan en la ficha técnica. Además, esto se debe tener muy en cuenta al trazar el número de patrones. (Tèxtil Balsareny, 2019)
                 
 
     p.mb-4 La marcada o tizada se divide según el tipo de tejido. 
@@ -214,7 +214,7 @@
               i.fas.fa-check(style='color: #BF3976;')
               p.mb-0
                 b Tizado o trazo en tela plana: 
-                b-none el tipo de tela puede ser dénim, popelina, drill, bramante, corduroy, seda. El tipo de acabado es de color entero, listada a cuadros, entre otros. El tizado en tela plana es más sencillo que en telas listadas o a cuadros, en las cuales no se pueden hacer variaciones en la orientación de la línea de aplomo y se debe respetar rigurosamente el orden de las líneas del trazado.
+                b-none el tipo de tela puede ser <em>dénim</em>, popelina, drill, bramante, corduroy, seda. El tipo de acabado es de color entero, listada a cuadros, entre otros. El tizado en tela plana es más sencillo que en telas listadas o a cuadros, en las cuales no se pueden hacer variaciones en la orientación de la línea de aplomo y se debe respetar rigurosamente el orden de las líneas del trazado.
 
 
     p.mb-5 El procedimiento del tizado se inicia cuando el responsable tiene la solicitud de confección definida, las especificaciones de la prenda, todo el juego de los patrones y las muestras de las prendas respectivas. Para la programación del tizado se recomienda:
@@ -222,7 +222,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         p.mb-5.text-center
-          b(style="color: #BF3976;") PROGRAMACIÓN TIZADO
+          b(style="color: #BF3976;") Programación Tizado
         
         PasosA.color-secundario.mb-5(tipo="l")
           .row
@@ -253,9 +253,12 @@
     #t_4_1.titulo-segundo.color-acento-contenido
       .h2 4.1 Sistemas para trazar
     
+    p.mb-4 Existen cuatro tipos de sistemas para trazar:
+
+    h4.mb-4 Sistema manual
     
     .row.justify-content-center.mb-5
-      .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+      .bloque-texto-a.color-primario.p-4.p-md-5.mb-4
         .row.m-0.align-items-center.justify-content-between
           .col-lg-3.mb-4.mb-lg-0
             figure.mb-0
@@ -346,7 +349,7 @@
                     
 
     h4 Sistema perforado
-    p.mb-5 Se efectúa el trazo (marcado) sobre papel; una vez dibujado, se procede a perforar el contorno de cada una de las piezas o figuras con un pin o punzón. Para reproducir esta marcada sobre el tejido, basta colocarlo sobre el mismo y espolvorearlo con polvos tipo negro humo o talco, pasando estos tejidos y quedando adheridos a él; la marcada tiene una larga duración. Este se realiza también para marcar zonas específicas en confección, como dibujo de bolsillos, curvas y aquellas operaciones complejas que sin una guía no se lograrían. (Sena, 2012)
+    p.mb-5 Se efectúa el trazo (marcado) sobre papel; una vez dibujado, se procede a perforar el contorno de cada una de las piezas o figuras con un pin o punzón. Para reproducir esta marca sobre el tejido, basta colocarlo sobre el mismo y espolvorearlo con polvos tipo negro humo o talco, pasando estos tejidos y quedando adheridos a él; la marcada tiene una larga duración. Este se realiza también para marcar zonas específicas en confección, como dibujo de bolsillos, curvas y aquellas operaciones complejas que sin una guía no se lograrían. (Sena, 2012)
 
 
     h4 Sistema por pulverización
@@ -407,15 +410,15 @@
       .h2 4.3 Trazo sistematizado
     
     
-    p.mb-4 El diseño asistido por computador – CAD – es el uso de herramientas tecnológicas o software especializado para ayudar a desarrollar tareas que antes se hacían de forma manual. El otro sistema de trazo es de manera sistematizada por medio de un software específico, el cual viene, en su mayoría, dividido en 2, el primer sistema es el de patrones y el segundo, el de “marcada o tizada”. 
-    p.mb-5 Los patrones sistematizados se obtienen mediante la realización de ellos desde cero o por medio de la digitalización. Digitizer es un software que permite digitalizar moldes físicos, es decir, pasarlos al sistema computarizado por medio de puntos que toman fielmente los contornos del molde, los cuales podrán ser modificados y escalados posteriormente de la misma manera que se trabaja con los patrones creados directamente en el programa. La digitalización puede hacerse usando una mesa digitalizadora, que traslada los contornos de un molde al sistema, o a través de la fotografía digital. El software facilita la disposición de las piezas o moldes en la mesa de corte para minimizar el desperdicio de tela y así ahorrar en los costos de material y tiempo de trabajo. El trazo puede hacerse de forma automática o semiautomática y solamente es necesario indicar las medidas de la tela para que el software opere por su cuenta automáticamente. Es mucho más eficaz y genera mayor productividad que el sistema manual, ya que este se logra por medio de algoritmos. (Sena, 2012)
+    p.mb-4 El diseño asistido por computador – CAD – es el uso de herramientas tecnológicas o <em>software</em> especializado para ayudar a desarrollar tareas que antes se hacían de forma manual. El otro sistema de trazo es de manera sistematizada por medio de un <em>software</em> específico, el cual viene, en su mayoría, dividido en 2, el primer sistema es el de patrones y el segundo, el de “marcada o tizada”. 
+    p.mb-5 Los patrones sistematizados se obtienen mediante la realización de ellos desde cero o por medio de la digitalización. Digitizer es un <em>software</em> que permite digitalizar moldes físicos, es decir, pasarlos al sistema computarizado por medio de puntos que toman fielmente los contornos del molde, los cuales podrán ser modificados y escalados posteriormente de la misma manera que se trabaja con los patrones creados directamente en el programa. La digitalización puede hacerse usando una mesa digitalizadora, que traslada los contornos de un molde al sistema, o a través de la fotografía digital. El <em>software</em> facilita la disposición de las piezas o moldes en la mesa de corte para minimizar el desperdicio de tela y así ahorrar en los costos de material y tiempo de trabajo. El trazo puede hacerse de forma automática o semiautomática y solamente es necesario indicar las medidas de la tela para que el <em>software</em> opere por su cuenta automáticamente. Es mucho más eficaz y genera mayor productividad que el sistema manual, ya que este se logra por medio de algoritmos. (Sena, 2012)
 
 
     .row.mb-5
       .col-lg-5
         .cajon.color-primario.p-4.ps-lg-5
           p.mb-4
-            b El sistema pide datos exactos para realizar el trazo, tales como los del siguiente ejemplo:: 
+            b El sistema pide datos exactos para realizar el trazo, tales como los del siguiente ejemplo:
             
           ul.lista-ul.mb-0
             li
@@ -424,7 +427,7 @@
                 
             li
               i.fas.fa-check(style='color: #BF3976;')
-              p.mb-0 Tipo de prenda: Blusa camisera femenina
+              p.mb-0 Tipo de prenda: blusa camisera femenina
                 
             li
               i.fas.fa-check(style='color: #BF3976;')
@@ -432,11 +435,11 @@
                 
             li
               i.fas.fa-check(style='color: #BF3976;')
-              p.mb-0 Tela: Popelina 
+              p.mb-0 Tela: popelina 
                 
             li
               i.fas.fa-check(style='color: #BF3976;')
-              p.mb-0 Tejido: Plano  
+              p.mb-0 Tejido: plano  
                 
             li
               i.fas.fa-check(style='color: #BF3976;')
@@ -512,7 +515,7 @@
                 
           .row(numero="2" titulo="Cómo trazar en diseño regular o irregular")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Si la tela tiene un diseño regular, se trazarán los patrones sobre tela doble, esta deberá doblarse a lo largo de la tela, tomando siempre como referencia una de las líneas del diseño. En el caso de trabajar telas con diseño irregular, la tela no se doblará, sino que se colocará en una sola capa abierta y los patrones que estén doblados se abren sobre ella. De esta manera, se desaprovechará más cantidad de tela.
+              p.mb-4 Si la tela tiene un diseño regular, se trazarán los patrones sobre tela doble, esta deberá doblarse a lo largo de la tela, tomando siempre como referencia una de las líneas del diseño. En el caso de trabajar telas con diseño irregular, la tela no se doblará, sino que se colocará en una sola capa abierta y los patrones que estén doblados se abren sobre ella. De esta manera, se desaprovecha más cantidad de tela.
               figure
                 img(src='@/assets/curso/tema4/img24.png', alt='imagen ambiental', style='width: 352px;').m-auto
                 
@@ -524,7 +527,7 @@
                 
           .row(numero="4" titulo="Trazar sobre tejido a rayas")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 Para la colocación de los patrones sobre un tejido a rayas, se tienen 2 opciones: si la tela lleva las rayas en perpendicular a los orillos, será la parte inferior del patrón (el bajo de la prenda) la que se tenga que encuadrar con una de las líneas del diseño del tejido. Por el contrario, si la tela lleva las rayas en paralelo a los orillos, serán los laterales de los patrones los que se harán coincidir con las líneas del diseño.4
+              p.mb-4 Para la colocación de los patrones sobre un tejido a rayas, se tienen 2 opciones: si la tela lleva las rayas en perpendicular a los orillos, será la parte inferior del patrón (el bajo de la prenda) la que se tenga que encuadrar con una de las líneas del diseño del tejido. Por el contrario, si la tela lleva las rayas en paralelo a los orillos, serán los laterales de los patrones los que se harán coincidir con las líneas del diseño.
               figure
                 img(src='@/assets/curso/tema4/img26.png', alt='imagen ambiental', style='width: 593px;').m-auto
                 
@@ -641,7 +644,7 @@
                 th 17
             tbody
               tr
-                td.text-center &Aacute;rea (cm2)
+                td.text-center &Aacute;rea (cm<sup>2</sup>)
                 td.text-center 13100
                 td.text-center 13600
                 td.text-center 14100
@@ -655,7 +658,7 @@
     p.mb-4
       b La eficiencia real se calcula de la siguiente forma:
 
-    p Área de los patrones= 13,100 + 15,600 = 28,700 cm2
+    p Área de los patrones= 13,100 + 15,600 = 28,700 cm<sup>2</sup>
     p Ancho de tela = 150 cm
     p.mb-5 Largo del tizado =210 cm
 
@@ -685,7 +688,7 @@
     p.mb-4 Se requieren trazos impresos en papel para identificar cada pieza del patrón en una prenda. El trazo se debe imprimir luego de realizado, para identificar el contorno de las piezas que se van a cortar.
 
     .cajon-b.color-acento-botones.p-3.mb-5
-      p.mb-4 Los plóteres se utilizan en dibujo técnico y otros usos del CAD, donde tienen la ventaja de poder trabajar con tamaños de papel muy grandes, a la vez que mantienen una alta resolución. Otro uso ha sido encontrado sustituyendo la pluma por un cortador. Las dimensiones de los plóteres no son uniformes. Para gráficos profesionales, se emplean plóteres de hasta 157 cm de ancho, mientras que para otros no tan complejos son de 91 a 121 cm2. (Wikipedia, 2021).
+      p.mb-4 Los plóteres se utilizan en dibujo técnico y otros usos del CAD, donde tienen la ventaja de poder trabajar con tamaños de papel muy grandes, a la vez que mantienen una alta resolución. Otro uso ha sido encontrado sustituyendo la pluma por un cortador. Las dimensiones de los plóteres no son uniformes. Para gráficos profesionales, se emplean plóteres de hasta 157 cm de ancho, mientras que para otros no tan complejos son de 91 a 121 cm<sup>2</sup>. (Wikipedia, 2021).
       p.mb-0 Unos de los plóteres que también se encuentran en el mercado son los de corte de patrones (Ver siguiente figura), que ayudan al diseño de cama plana. Permiten que los materiales se coloquen en la superficie de corte y que el material se mantenga en su lugar con un sistema de vacío. A continuación, el material se aspira de forma rápida y sencilla en su lugar y la hoja con punta de acero y carburo se desliza sobre la superficie de las mesas, cortando y cerrando formas para una eliminación inmediata y limpia.
 
 

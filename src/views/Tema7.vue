@@ -86,7 +86,7 @@
           .col-lg-9
             .bloque-texto-a__texto.p-4.py-5
               p.mb-0 Por defectos que estén presentes en la tela al extenderla para el corte, 
-                b NINGUNA EMPRESA TEXTIL ACEPTA RECLAMOS SOBRE EL MATERIAL CORTADO.
+                b <u>ninguna empresa textil acepta reclamos sobre el material cortado.</u>
 
 
     p.mb-4 Un factor definitivo para el éxito en la confección es tener personal encargado de la extendida y corte de la tela perfectamente capacitado y entrenado. Esto no solo evita que los defectos se integren a las prendas, sino que previene problemas de revolturas de tejidos y tonos.
@@ -203,7 +203,7 @@
     .row.justify-content-center.mb-2
       .col-lg-10
         tab-custom
-          .row.justify-content-center(titulo="Transporte manual")
+          .row.justify-content-center.mb-lg-0(titulo="Transporte manual")
             .col-lg-12.mt-3.mb-5
               .p-5.mb-4(style="background-color: #FFF5FA")
                 h4.mb-4 Transporte manual
@@ -211,7 +211,7 @@
                 p.mb-0 Es importante tener en cuenta que la cara lisa del papel quede en contacto con la mesa y la cara áspera quede en contacto con las telas.
           
           
-          .row.justify-content-center(titulo="Transporte por aerosuspensión")
+          .row.justify-content-center.mb-lg-0(titulo="Transporte por aerosuspensión")
             .col-lg-12.mt-3.mb-5
               .p-5.mb-4(style="background-color: #FFF5FA")
                 h4.mb-4 Transporte por aerosuspensión
@@ -219,13 +219,13 @@
                   
           
           
-          .row.justify-content-center(titulo="Transporte por aerosuspensión y rodillos de avances")
+          .row.justify-content-center.mb-lg-0(titulo="Transporte por aerosuspensión y rodillos de avances")
             .col-lg-12.mt-3.mb-5
               .p-5.mb-4(style="background-color: #FFF5FA")
                 h4.mb-4 Transporte por aerosuspensión y rodillos de avances
                 p.mb-0 Es el mismo sistema de aerosuspensión, pero se le acondicionan unos rodillos que giran constantemente.  Esos rodillos están colocados longitudinalmente a la mesa, su objetivo es desplazar el tendido o colchón automáticamente.  Hay que cuidar que uno de los extremos del tendido esté en contacto con estos rodillos.  Un solo operario es necesario para mover el colchón.
                   
-          .row.justify-content-center(titulo="Transporte por cintas o bandas")
+          .row.justify-content-center.mb-lg-0(titulo="Transporte por cintas o bandas")
             .col-lg-12.mt-3.mb-5
               .p-5.mb-4(style="background-color: #FFF5FA")
                 h4.mb-4 Transporte por cintas o bandas
@@ -241,10 +241,10 @@
                     i.fas.fa-check(style='color: #BF3976;')
                     p.mb-0 Se mantiene a los operarios en sus puestos de trabajo, sin pérdidas de tiempo ni movimientos improductivos.
           
-          .row.justify-content-center(titulo="Transporte por mesa de transferencia")
+          .row.justify-content-center.mb-lg-0(titulo="Transporte por mesa de transferencia")
             .col-lg-12.mt-3.mb-5
               .p-5.mb-4(style="background-color: #FFF5FA")
-                h4.mb-4 Transporte manual
+                h4.mb-4 Transporte por mesa de transferencia
                 p En este método, se traslada la máquina extendedora, no el extendido.  Todas las operaciones se realizan en el mismo sitio de trabajo (extendido, corte y empaquetado).
                 p.mb-0 Este transporte está unido a todo un proceso sistematizado, el cual permite mayor rapidez y calidad en el departamento de corte.
           
@@ -253,7 +253,7 @@
 
 
     #t_7_5.titulo-segundo.color-acento-contenido
-      .h2 7.5 Sistema de transporte de tendidos
+      .h2 7.5 Controles antes del corte
 
 
     p.mb-4 Antes de pasar al proceso de corte, es recomendable efectuar una serie de controles sencillos que, sin requerir equipos especializados, proporcionan un alto grado de confiabilidad durante las operaciones posteriores.

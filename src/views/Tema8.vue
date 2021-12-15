@@ -91,12 +91,12 @@
           img(src='@/assets/curso/tema8/img3.png', alt='imagen ambiental', style='width: 448px;').m-auto
 
     .row.mb-5
-      .col-10.col-lg-5.mb-4.mb-lg-0
+      .col-10.col-lg-5.mb-4.mb-lg-0.order-2.order-lg-1
         .titulo-sexto.color-acento-contenido.mb-4
           span #[strong figura 11] Cortadora cuchilla vertical
         figure.mb-0
           img(src='@/assets/curso/tema8/img4.png', alt='imagen ambiental', style='width: 448px;').m-auto
-      .col-lg-7
+      .col-lg-7.order-1.order-lg-2
         h4.mb-4 Cortadora cuchilla vertical
         p.mb-4 También tiene un motor eléctrico, que transmite el movimiento a una cuchilla mediante mecanismos de biela manivela para las cuchillas. Con ella, se corta un gran número de capas. El cuidado para manipularla debe ser extremo, ya que la cuchilla es de gran potencia, y deben usarse todos los elementos de seguridad, entre ellos el guante metálico. Está compuesta por dos cintas SINFÍN cruzadas, de abrasivo; que, además de tener rotación las propias cintas, el conjunto del mecanismo se desplaza en sentido alternativo a todo lo largo de la cuchilla, estando esta en funcionamiento. Cómo es lógico, este afilado debe efectuarse con la máquina fuera del colchón del tejido. 
         ul.lista-ul.mb-0
@@ -117,7 +117,7 @@
 
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        h4.mb-4 Corte con cuchilla de cinta o SINFÍN
+        h4.mb-4 Corte con cuchilla de cinta o sinfín
         p.mb-4 Esta máquina permanece estática, lo que se mueve es el material para cortar, empujado por la mano del operario. El elemento cortante es un fleje afilado, de un ancho aproximado de un (1) centímetro y espesor inferior a ½ mm, empalmando en forma de cinta sinfín, que se mueve entre tres volantes, según el siguiente esquema:
           
         .row.justify-content-start
@@ -164,12 +164,12 @@
 
 
     .row.mb-5
-      .col-10.col-lg-5.mb-4.mb-lg-0
+      .col-10.col-lg-5.mb-4.mb-lg-0.order-2.order-lg-1
         .titulo-sexto.color-acento-contenido.mb-4
           span #[strong figura 13] Corte por presión (troquel)
         figure.mb-0
           img(src='@/assets/curso/tema8/img6.png', alt='imagen ambiental', style='width: 448px;').m-auto
-      .col-lg-7
+      .col-lg-7.order-1.order-lg-2
         h4.mb-4 Corte por presión (troquel)
         p.mb-4 Las prensas de presión pueden ser neumáticas o hidráulicas, según el esfuerzo por realizar y su forma de trabajo. Para el trazo, se utilizan moldes cortantes, los cuales se colocan en la prensa o troquel según la proporción de telas a trazar. El extendido se realiza igual a la técnica convencional, teniendo en cuenta que el largo y el ancho del tejido no superen el tamaño de la base del troquel. El plato superior puede tener dos movimientos, siempre el de ascenso - descenso (efectúa el troquelado).
         p.mb-4 En algunas prendas hay desplazamiento rotatorio del plato superior para facilitar la colocación de las telas y el troquel. Cuando el troquel de la pieza tiene unas dimensiones reducidas, conviene que este tenga unos elementos de expulsión de las telas que quedan embutidas en su interior. Cuando este es de amplias dimensiones, la expulsión se hace a mano.
@@ -205,7 +205,7 @@
         .p-4(style="background-color: #F0F9FF;")
           p.mb-4 Este sistema enlaza informáticamente el patronaje - escalado - trazado y ploteado con el extendido y posterior cortado del colchón de telas previamente estirado.
           p.mb-0
-            b El sistema de corte automatizado consta de las siguientes unidades
+            b El sistema de corte automatizado consta de las siguientes unidades:
 
     .row.justify-content-center.mb-5
       .col-11.mb-5
@@ -259,6 +259,7 @@
         h4.mb-4 Corte por cuchilla
         p.mb-4 El más utilizado de los sistemas de corte informatizados es el corte por cuchilla, gracias al perfeccionamiento técnico que ha alcanzado. Esta cuchilla tiene tres movimientos, ascenso, descenso y circular, que provocan el corte en diferentes direcciones.
         p La cuchilla tiene unos 10 mm de ancho y está provista de un sensor que va mandando continuamente datos a la unidad de control.
+        p Por el sistema de cuchilla, se pueden cortar colchones de tendidos ya compactados, que oscilan entre 10 y 15 cm. Este grosor estará siempre en función del grueso del tejido y del tipo de fibra que lo componga.
         p.mb-0 Dependiendo de la dureza del género, se pondrán más o menos capas en el colchón, con el fin de que la cuchilla no se flexione ni se parta.
           
       .col-10.col-lg-5
@@ -269,12 +270,12 @@
 
 
     .row.mb-5
-      .col-10.col-lg-5.mb-4.mb-lg-0
+      .col-10.col-lg-5.mb-4.mb-lg-0.order-2.order-lg-1
         .titulo-sexto.color-acento-contenido.mb-4
           span #[strong figura 16] Sistema de corte láser
         figure.mb-0
           img(src='@/assets/curso/tema8/img12.png', alt='imagen ambiental', style='width: 448px;').m-auto
-      .col-lg-7
+      .col-lg-7.order-1.order-lg-2
         h4.mb-4 Corte por láser
         p.mb-4 El rayo láser tiene múltiples aplicaciones, una de ellas es el corte en empresas de confección. En este sistema, el corte se hace unitariamente, es decir, capa por capa.
         p.mb-4 En síntesis, el láser consta de un haz de luz coherente, es decir, no se abre como lo haría un haz luminoso de una bombilla, sino que mantiene el diámetro en toda la longitud del haz, alcanzando temperaturas muy altas, que se utilizan para el corte de diferentes materiales. El haz de luz utilizado en confección es de una milésima de pulgada, y trabaja con una potencia de 300 watios.
@@ -386,14 +387,14 @@
 
 
     .row.justify-content-center.mb-5
-      .titulo-sexto.color-acento-contenido.mb-4
-        p.mb-0
-          b(style="font-size: 15.5px") Figura 18 
-          b-none Sistema de corte por ultrasonido
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0.order-2.order-lg-1
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0
+            b(style="font-size: 15.5px") Figura 18 
+            b-none Sistema de corte por ultrasonido
         figure.mb-0
           img(src='@/assets/curso/tema8/img18.png', alt='imagen ambiental', style='width: 448px;').m-auto
-      .col-lg-7
+      .col-lg-7.order-1.order-lg-2
         h4.mb-4 Corte por ultrasonido
         p La herramienta de corte es una cuchilla oscilando a frecuencia ultrasónica. Las oscilaciones, que no son perceptibles para el oído humano, garantizan un corte rápido y preciso de contornos.
         p.mb-0 Se puede aumentar el rendimiento de corte con la utilización de un segundo cabezal de corte para trabajar en la misma capa de material (10 capas como máximo de altura).
@@ -401,7 +402,7 @@
 
 
     #t_8_3.titulo-segundo.color-acento-contenido
-      .h2 8.3 Corte manual
+      .h2 8.3 Destrozar
 
 
     p.mb-5 Se llama destrozar al efecto de cortar en bloque el conjunto de telas del colchón sin gran precisión, es decir, sin seguir en todo el recorrido los perfiles dibujados de los patrones. En este proceso, se mueve la maquina y no el material (la tela). Para esta forma de cortar, se emplean máquinas de corte de dos tipos: cortadora circular (disco), cortadora vertical.
@@ -411,7 +412,7 @@
 
     
     #t_8_4.titulo-segundo.color-acento-contenido
-      .h2 8.4 Corte manual
+      .h2 8.4 Precauciones generales a la hora de cortar
     
 
     p.mb-5 
@@ -442,7 +443,7 @@
                 
             li
               i.fas.fa-check(style='color: #BF3976;')
-              p.mb-0 Tejidos con acabados afelpados, tipo pana, colteroy, y esmerilados o perchados deben extenderse con la orientación del pelo siempre en el mismo sentido, para evitar diferencias de tonos al ensamblar las prendas.
+              p.mb-0 Tejidos con acabados afelpados, tipo pana, colter, y esmerilados o perchados deben extenderse con la orientación del pelo siempre en el mismo sentido, para evitar diferencias de tonos al ensamblar las prendas.
                 
 
     .row.justify-content-center.mb-5
@@ -473,7 +474,7 @@
               img(src='@/assets/curso/tema8/icon1.svg' alt='AvatarTop' style="width: 77px")
             .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
               .p-4
-                p.mb-0 El uso de guantes metálicos y guantes de lycra para proteger las manos de la máquina, confeccionados 100% en malla de acero inoxidable 316L, poseen ajuste a la muñeca con sistema especial Wilcox; se trata de guantes ambidiestros y deben estar certificados bajo norma europea.
+                p.mb-0 El uso de guantes metálicos y guantes de lycra para proteger las manos de la máquina, confeccionados 100 % en malla de acero inoxidable 316L, poseen ajuste a la muñeca con sistema especial Wilcox; se trata de guantes ambidiestros y deben estar certificados bajo norma europea.
                   
           .tarjeta-avatar-b.mb-3
             .tarjeta-avatar-b__img

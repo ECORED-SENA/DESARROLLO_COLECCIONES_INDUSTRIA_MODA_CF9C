@@ -36,7 +36,7 @@
 
 
     #t_11_2.titulo-segundo.color-acento-contenido
-      .h2 11.2 Manejo de las prendas cortadas, etiquetado, separación, empaqu
+      .h2 11.2 Manejo de las prendas cortadas, etiquetado, separación, empaque
 
 
     p.mb-4 Luego de realizados todos los procesos de trazo, extendido y corte, se procede a realizar el proceso de manejo de prendas. Las piezas deben salir completas, separar el corte por tallas, colores y tonos, identificando y amarrando adecuadamente. Verificar, además, en forma aleatoria (azar), que los paquetes tengan el número de unidades que se ha programado y que los tiquetes estén en el punto adecuado.
@@ -81,7 +81,7 @@
             li
               i.fas.fa-check(style='color: #BF3976;')
               p.mb-0
-                b Nombre de la pieza y de quien revisa
+                b Nombre de la pieza y de quién revisa
 
     .p-5.mb-5(style="background-color: #C2FCFA")
       .row.justify-content-around.align-items-center
