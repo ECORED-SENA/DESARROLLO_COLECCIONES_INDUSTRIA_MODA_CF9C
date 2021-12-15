@@ -191,7 +191,7 @@
 
 
     #t_8_2.titulo-segundo.color-acento-contenido
-      .h2 8.2 Corte manual
+      .h2 8.2 Corte automatizado
     
     
     .row.align-items-center.justify-content-center.gx-0.mb-5
@@ -520,7 +520,7 @@
                   
           .tarjeta-avatar-b.mb-3
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema8/icon7.svg' alt='AvatarTop' style="width: 77px")
+              img(src='@/assets/curso/tema8/icono_cofia.svg' alt='AvatarTop' style="width: 77px")
             .tarjeta.tarjeta--azul(style="background-color: #ACF2F0; border-radius: 5px;")
               .p-4
                 p.mb-0 Utilizar cofia, necesaria para la protección del cabello de las mujeres y los hombres de cabello largo.

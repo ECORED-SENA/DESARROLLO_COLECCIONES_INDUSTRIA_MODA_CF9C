@@ -230,6 +230,21 @@ export default {
         numero: '11',
         titulo: 'Operaciones auxiliares',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '11.1',
+            titulo: 'Entrega de lotes o empaquetar',
+            hash: 't_11_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '11.2',
+            titulo:
+              'Manejo de las prendas cortadas, etiquetado, separación, empaque',
+            hash: 't_11_2',
+          },
+        ],
       },
     ],
     subMenu: [

@@ -60,9 +60,11 @@
               p.mb-4 El Tener en cuenta los colores de mayor predominación y cantidad para distribuir en ellos el mayor número de metros, así: 
               .row.justify-content-center
                 .col-lg-11
-                  .tabla-a
+                  .full-tabla 
+                    figure.mb-0
+                      img(src='@/assets/curso/tema2/tabl1.jpg', alt='', style='').m-auto
+                  .tabla-a.responsive
                     table(style="min-width: 500px;")
-                      
                       tbody
                         tr(style="background-color: #B3DDFC")
                           td Azul claro
@@ -90,7 +92,10 @@
               p.mb-4 Para esto, se divide el total de metros de cada uno de los colores por el promedio de la prenda. 
               .row.justify-content-center
                 .col-lg-11
-                  .tabla-a
+                  .full-tabla 
+                    figure.mb-0
+                      img(src='@/assets/curso/tema2/tabl2.jpg', alt='', style='').m-auto
+                  .tabla-a.responsive
                     table(style="min-width: 580px;")
                       
                       tbody
@@ -130,7 +135,10 @@
               p.mb-4 La suma de las proporciones determina el total de prendas a trazar:
               .row.justify-content-center
                 .col-lg-9
-                  .tabla-a
+                  .full-tabla 
+                    figure.mb-0
+                      img(src='@/assets/curso/tema2/tabla2.svg', alt='', style='').m-auto
+                  .tabla-a.responsive
                     table(style="min-width: 380px;")
                       
                       tbody
